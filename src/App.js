@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/bfhl';
+const API_URL = 'https://health-dev-challenge-1.onrender.com/bfhl';
 
 export default function App() {
   const [input, setInput] = useState('');
